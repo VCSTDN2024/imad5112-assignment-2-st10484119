@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Questions"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="55dp"/>
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:text=""
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/TrueBtn"
+        android:layout_width="150dp"
+        android:layout_height="79dp"
+        android:text="True"
+        android:textSize="25sp"
+        android:translationY="175dp"/>
+
+    <Button
+        android:id="@+id/FalseBtn"
+        android:layout_width="150dp"
+        android:layout_height="85dp"
+        android:text="False"
+        android:textSize="25sp"
+        android:translationY="95dp"
+        android:translationX="260dp"/>
+
+    <Button
+        android:id="@+id/BtnExt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="30sp"
+        android:translationY="220dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="257dp"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/thumbsdown"
+        android:translationY="-150dp"
+        android:translationX="210dp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/thumbsup"
+        android:layout_gravity="center"
+        android:translationY="-235dp"
+        android:translationX="-130dp"/>
+
+    <Button
+        android:id="@+id/NextQuestion"
+        android:layout_width="248dp"
+        android:layout_height="70dp"
+        android:text="Next Question"
+        android:translationY="-100dp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/Feedback"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text=""
+        android:translationY="-450dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
